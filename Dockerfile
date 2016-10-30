@@ -1,4 +1,4 @@
-FROM redis:latest
+FROM redis:alpine
 # To reserve the possibility of changing the redis config
 # this separate repository is used. A possible change would
 # be to enable this container as master and dynamically add
